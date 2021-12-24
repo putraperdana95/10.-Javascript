@@ -1,11 +1,11 @@
 var angkotBeroperasi = 3;
-var angkotSehat = 5;
+// var angkotSehat = 8 || 10;
 var jmlAngkot = 10;
 
 for (var noAngkot = 1; noAngkot <= jmlAngkot; noAngkot++) {
   if (noAngkot <= angkotBeroperasi) {
     console.log("Angkot No. " + noAngkot + " beroperasi dengan baik.");
-  } else if (noAngkot === angkotSehat) {
+  } else if (noAngkot === 8 || noAngkot === 10) {
     console.log("Angkot No. " + noAngkot + " sedang lembur");
   } else {
     console.log("Angkot No. " + noAngkot + " sedang tidak beroperasi.");
